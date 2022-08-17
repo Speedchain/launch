@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
-NODE_DIR=${NODE_DIR:-$HOME/node}
-BIN_DIR=$(go env GOPATH)/bin
+NODE_DIR=/opt/node
+BIN_DIR=/opt/go/bin
 USER=$(whoami)
 
 
